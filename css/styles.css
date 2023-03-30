@@ -1,0 +1,44 @@
+div#p{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    position:relative;
+}
+.child{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position:relative;
+}
+#ch1,#ch2,#ch3,#ch4{
+    width: 100px;
+    height: 100px;
+}
+#ch1{
+    background-color: purple;
+    border-left: 2px solid green;
+    border-right: 2px dotted white;
+    border-top:2px dashed black;
+    border-bottom: 2px double white;
+ 
+}
+#ch2{
+    background-color: green;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#ch3{
+    background-color: blue;
+    position:absolute;
+    bottom:0px;
+    right: 0px;
+}
+#ch4{
+    background-color: orange;
+    border-top: 2px ridge white;
+    border-bottom: 2px groove white;
+    border-left: 2px inset white;
+    border-right: 2px outset white;
+}

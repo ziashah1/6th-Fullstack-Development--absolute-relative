@@ -1,0 +1,3 @@
+shift+Alt+down to copy the code block
+position absolute with cordinates(left, right, top, bottom) goes out of the parent block
+parent provides space within it with position relative property 
